@@ -128,6 +128,7 @@ class LogstashFormatterVersion1(LogstashFormatterBase):
             'type': self.message_type,
 
             # Extra Fields
+            'lineno': record.lineno,
             'level': record.levelname,
             'logger_name': record.name,
         }
