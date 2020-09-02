@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-logstash"
-version = "0.1.0"
+version = "0.4.7"
 description = ""
 authors = ["Thomas Kern <thomas.kern@meltwater.com>"]
 
